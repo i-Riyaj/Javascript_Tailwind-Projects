@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="output.css"></link>
+</head>
+<body>
+    <div class="mainContainer p-5  bg-[#020024] min-h-dvh max-w-dvw flex justify-center items-center">
+        <div class="card overflow-hidden max-h-[500px] bg-white w-[80%]  rounded-md shadow-md shadow-slate-500 p-3 flex flex-col gap-5">
+
+            <div class="heading  flex gap-2 justify-center items-center">
+                <h2 class="text-4xl font-bold text-[#4a2778]">ToDo List</h2>
+                <img src="../assets/images/icon.png" width="50px"/>
+            </div>
+
+            <div class="inputSection  max-w-[100%] flex justify-center items-center">
+                <input 
+                    id="userInput"
+                    type="text"
+                    placeholder="enter a task"
+                    class="bg-slate-300 rounded-s-full p-5 text-xl w-[70%] xxs:max-w-[70%]"
+                />
+                <button
+                    id="addBtn"
+                    type="button"
+                    class="bg-orange-700  text-[#e8e5ec] p-5 text-xl font-bold rounded-e-full "
+                >
+                    Add 
+                </button>
+
+            </div>
+
+            <div class="min-h-[10%] min-w-full flex flex-col justify-center items-center">
+               <ul class="taskSection p-3 text-2xl overflow-x-hidden overflow-y-scroll max-h-full w-full cursor-pointer">
+                <!-- <li></li>> -->
+                <!-- <span></span> -->
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
