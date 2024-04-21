@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-[#ab3cfc] min-h-dvh max-w-dvw flex justify-center items-center py-10 px-5">
+
+    <main class="max-h-[700px] max-w-[700px] bg-white rounded-md p-10">
+        <div>
+            <h2 class="text-[#44369f] text-4xl font-bold p-1.5">Simple Quiz</h2>
+            <hr class="h-[2px] bg-black my-3 rounded">
+        </div>
+    
+        <div class="quizBox mt-8 text-xl font-sans text-[#44369f] font-bold">
+            <h2 class="question"></h2>
+            <div class="answerBtnSection flex flex-col gap-5 justify-center items-center p-3">
+                <!-- <button class="answerBtn hover:bg-slate-400 hover:text-white rounded font-medium border-solid border-[1px] border-black text-start w-full px-3 py-2 ">Answer1</button>
+                <button class="answerBtn hover:bg-slate-400 hover:text-white rounded font-medium border-solid border-[1px] border-black text-start w-full px-3 py-2 ">Answer2</button>
+                <button class="answerBtn hover:bg-slate-400 hover:text-white rounded font-medium border-solid border-[1px] border-black text-start w-full px-3 py-2 ">Answer3</button>
+                <button class="answerBtn hover:bg-slate-400 hover:text-white rounded font-medium border-solid border-[1px] border-black text-start w-full px-3 py-2 ">Answer4</button> -->
+            </div>
+        </div>
+
+        <div class="nextFinishSection flex flex-col gap-3 justify-center items-center mt-8">
+            <button 
+                type="button"
+                id="nextBtn"
+                class="bg-[#44369f] text-white font-bold px-8 py-2 rounded text-xl hover:bg-blue-700 hidden"
+            >
+                <!-- Next -->
+            </button>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
