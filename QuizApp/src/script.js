@@ -132,7 +132,6 @@ nextBtn.addEventListener('click', (e) => {
     else {
         e.target.parentNode.removeChild(e.target.parentNode.firstElementChild.nextElementSibling);
         startQuiz();
-        // cleanUp();
     }
 });
 
