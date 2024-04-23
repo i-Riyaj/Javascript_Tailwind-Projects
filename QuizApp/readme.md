@@ -1,4 +1,6 @@
 # Quiz App 
+## Live Link
+[click here](https://i-riyaj.github.io/Javascript_Tailwind-Projects/QuizApp/src/)
 ## Language used
 - HTML
 - Tailwind CSS
@@ -8,5 +10,3 @@
 - if the selected answer is wrong then the correct answer appears and lock the answer options
 - It shows score after all the question is attempted
 - It has finish quiz and play again options also
-## Video Preview
-[![Watch video](./assets/DemoFiles/QuizAppPreview.png)](./assets/DemoFiles/QuizAppJsVIdeoPreview.mp4)
