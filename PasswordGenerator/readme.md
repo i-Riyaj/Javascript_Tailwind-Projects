@@ -8,5 +8,5 @@
 - select password length between 5 to 15
 - generate a password of selected length
 - copy it on clipboard
-## Video Preview
-[![click to watch the video](./src/assets/demoFiles/passGeneratorImg.png)](./src/assets/demoFiles/passwordGeneratorJSVideoPreview.mp4)
+## Live Preview
+[click here](https://i-riyaj.github.io/Javascript_Tailwind-Projects/PasswordGenerator/src/)
