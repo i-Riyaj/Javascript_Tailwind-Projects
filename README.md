@@ -8,3 +8,4 @@
 2. [TO DO List](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/ToDo%20List)
 3. [Quiz App](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/QuizApp)
 4. [Password Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/PasswordGenerator)
+5. [Notes App](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/NotesApp)
