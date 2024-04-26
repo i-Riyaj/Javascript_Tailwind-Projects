@@ -47,11 +47,11 @@ function customizeLI (e) {
 }
 
 function saveData () {
-    localStorage.setItem("data", taskSection.innerHTML);
+    localStorage.setItem("tasks", taskSection.innerHTML);
 }
 
 function showTaskAfterRefresh () {
-    taskSection.innerHTML = localStorage.getItem("data");
+    taskSection.innerHTML = localStorage.getItem("tasks");
 }
 showTaskAfterRefresh();
 
