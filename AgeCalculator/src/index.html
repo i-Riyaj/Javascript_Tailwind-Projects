@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Your Age</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="min-h-screen max-w-screen p-10 bg-[#8BC6EC] bg-gradient-to-tr from-grad1stColor to-grad2ndColor">
+    
+    <div 
+        id="mainContainer"
+        class="xs:p-2 p-5 flex flex-col gap-10"
+    >
+        
+        <div>
+            <h2 class="font-bold p-1.5 text-white text-5xl drop-shadow-lg">Javascript</h1>
+            <h2 class="font-bold p-1.5 text-yellow-300 text-5xl drop-shadow-md">Age Calculator</h2>
+        </div>
+
+        <div 
+            class="xs:self-center p-7 w-fit bg-[#ffffff5c] flex gap-5 rounded-md text-2xl drop-shadow-md xs:flex-col"
+        >
+            <input 
+                id="ageInput"
+                name="ageInput" 
+                type="date"
+                class="px-5 py-1.5 rounded-md cursor-pointer md:min-w-[400px]" 
+                
+            />
+            <button
+                id="calculateBtn" 
+                class="bg-yellow-300 px-5 py-1.5 rounded-md hover:bg-yellow-400"
+                onclick = "calculateAge()"
+            >
+                Calculate
+            </button>
+        </div>
+
+        <div
+            id="outputBox" 
+            class="p-3 text-white text-2xl font-mono hidden"
+        >
+
+        </div>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
