@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the day</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="min-h-dvh w-dvw flex justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500 font-mono text-xl p-5">
+    <div 
+        id="mainContainer" 
+        class="min-h-[300px] w-[70%] xs:w-[90%] bg-white drop-shadow-lg rounded-lg" 
+    >
+        <div 
+            id="quoteGenerator"
+            class="p-5 flex flex-col gap-3"
+        >
+            <div class="text-center text-3xl font-serif font-bold flex flex-col gap-3 p-2">
+                <h1>Quote of the day</h1>
+                <hr class="w-16 h-1 bg-[#1DA1F2] self-center"/>
+            </div>
+
+            <div id="quoteBox" class="flex flex-col gap-3">
+                <blockquote 
+                    id="quoteField"
+                    class='text-center p-2 before:content-["\""] after:content-["\""]'
+                >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat cupiditate consequatur omnis?
+                </blockquote>
+                <div class="p-2 flex gap-2 self-end pr-4">
+                    <hr class="w-6 h-0.5 bg-[#1DA1F2] self-center"/>
+                    <span id="AuthorNameField">Loremipsum</span>
+                </div>
+            </div>
+
+            <div 
+                id="buttons"
+                class="flex gap-3 self-center py-3 xs:flex-col"
+            >
+                <button 
+                    id="newQuoteBtn"
+                    type="button"
+                    class="bg-[#1DA1F2] hover:bg-[#657786] w-fit px-8 py-2 rounded-full text-white cursor-pointer"
+                    onclick="getQuote(apiUrl)"
+                >
+                    New Quote
+                </button>
+
+                <button 
+                    id="tweetBtn"
+                    type="button"
+                    onclick="tweet()"
+                    class="rounded-full border-2 w-fit border-[#1DA1F2] flex items-center px-8 hover:bg-slate-300 cursor-pointer"
+                >
+                    <img 
+                        src="../assets/Images/xLogo.png"
+                        class="size-10 bg-transparent"
+                    />
+                    <span>Tweet</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
