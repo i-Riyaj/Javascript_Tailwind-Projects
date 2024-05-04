@@ -1,0 +1,33 @@
+#QRimage {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#QRimage.showQR {
+    display: block;
+   max-height: 18.75rem;
+   border: 0.0625rem solid #d1d1d1;
+}
+
+
+.errorAnimation {
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
