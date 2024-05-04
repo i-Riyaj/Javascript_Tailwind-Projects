@@ -9,3 +9,4 @@
 3. [Quiz App](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/QuizApp)
 4. [Password Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/PasswordGenerator)
 5. [Notes App](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/NotesApp)
+6. [Age Calculator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/AgeCalculator)
