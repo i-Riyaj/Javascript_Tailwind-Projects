@@ -10,3 +10,4 @@
 4. [Password Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/PasswordGenerator)
 5. [Notes App](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/NotesApp)
 6. [Age Calculator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/AgeCalculator)
+7. [Quotes Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/Quote%20Generator)
