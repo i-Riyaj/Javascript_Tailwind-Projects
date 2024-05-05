@@ -1,6 +1,6 @@
 const userInput = document.querySelector('#userInput');
 const addBtn = document.querySelector('#addBtn');
-const taskSection = document.querySelector('.taskSection');
+const taskSection = document.querySelector('#taskSection');
 
 addBtn.addEventListener('click', checkUserInput)
 

@@ -3,12 +3,12 @@ const notesField = document.querySelector('#notesField');
 
 
 function getStorage () {
-    notesField.innerHTML = localStorage.getItem('data');
+    notesField.innerHTML = localStorage.getItem('notes');
 };
 getStorage();
 
 function updateStorage () {
-    localStorage.setItem('data', notesField.innerHTML);
+    localStorage.setItem('notes', notesField.innerHTML);
 };
 
 editBtn.addEventListener('click', () => {
