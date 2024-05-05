@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Notification</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/c0645405b1.js" crossorigin="anonymous"></script>
+</head>
+<body class="min-h-dvh w-dvw bg-gradient-to-r from-slate-900 to-slate-700">
+    <div id="mainContainer" class="min-h-dvh">
+        <div 
+            id="buttons"
+            class="p-10 flex xs:flex-col  gap-3 justify-center"
+        >
+            <button 
+                onclick="showToast(successMsg)"
+                type="button"
+                id="successBtn"
+                class="bg-[#212121] text-white font-bold py-2 px-6 rounded-md cursor-pointer hover:bg-[#534f4f8f]"     
+            >
+                Success
+            </button>
+            <button
+                onclick="showToast(errorMsg)" 
+                type="button"
+                id="errorBtn"
+                class="bg-[#212121] text-white font-bold py-2 px-6 rounded-md cursor-pointer hover:bg-[#534f4f8f]"     
+            >
+                Error
+            </button>
+            <button
+                onclick="showToast(invalidMsg)" 
+                type="button"
+                id="invalidBtn"
+                class="bg-[#212121] text-white font-bold py-2 px-6 rounded-md cursor-pointer hover:bg-[#534f4f8f]"     
+            >
+                Invalid
+            </button>
+        </div>
+
+        <div 
+            id="toastBox"
+            class="absolute bottom-8 right-8 flex flex-col items-end overflow-hidden p-5"
+        >
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

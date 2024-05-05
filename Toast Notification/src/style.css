@@ -1,0 +1,73 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.toast {
+    width: 20rem;
+    height: 5rem;
+    background: #fff;
+    font-weight: 500;
+    margin: 0.9375rem 0;
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; 
+    box-shadow: 0 0 1.25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transform: translateX(100%);
+    animation: moveLeft 0.5s linear forwards;
+}
+
+@keyframes moveLeft {
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.toast i {
+    margin: 0 1.25rem;
+    font-size: 2.1875rem;
+    color: green;
+}
+
+.toast.i-error i{
+    color: red;
+}
+
+.toast.i-invalid i{
+    color: orange;
+}
+
+.toast::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.3125rem;
+    background: green;
+    animation: anim 2s linear forwards;
+}
+
+.toast.i-error::after {
+    background: red;
+}
+
+.toast.i-invalid::after{
+    background: orange;
+}
+
+@keyframes anim {
+    100%{
+        width: 0;
+    }
+}
+
+@media (max-width:460px){
+    .toast {
+        width: 15rem;
+    }
+}
