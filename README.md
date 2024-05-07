@@ -14,3 +14,4 @@
 8. [QR Code Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/QRcodeGenerator)
 9. [Toast Notification](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/Toast%20Notification)
 10. [Music Player](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/Music%20Player)
+11. [StopWatch](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/StopWatch)
