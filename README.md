@@ -12,3 +12,4 @@
 6. [Age Calculator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/AgeCalculator)
 7. [Quotes Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/Quote%20Generator)
 8. [QR Code Generator](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/QRcodeGenerator)
+9. [Toast Notification](https://github.com/i-Riyaj/Javascript_Tailwind-Projects/tree/main/Toast%20Notification)
