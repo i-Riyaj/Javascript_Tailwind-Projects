@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/c0645405b1.js" crossorigin="anonymous"></script>
+</head>
+<body class="min-h-dvh min-w-dvw p-5 bg-black text-white font-bold flex justify-center items-center">
+
+    <div id="mainContainer" class="w-[80%] p-2">
+
+        <div id="musicPlayer">
+
+            <div 
+                id="songInfo"
+                class="flex gap-2 flex-col justify-center"
+            >
+                <div 
+                    id="logo"
+                    class="self-center rounded-full size-[250px] border-8 border-white overflow-hidden"
+                >
+                    <img src="../assets/images/musicPlayerLogo.jpg" alt="musicLogo"/>
+                </div>
+
+                <div id="songDetails" class="self-center p-5 text-center">
+                    <h3 class="pb-2 text-2xl text-[#FF1493]">Ek Din Teri Rahon Mein</h3>
+                    <p class="font-mono">Javed Ali | Akshaye Khanna | Urvashi Sharma</p>
+                </div>
+
+                <div id="songLength" class="self-center p-5 flex flex-col gap-6">
+                    <audio id="song">
+                        <source src="../assets/songs/Ek Din Teri Raahon Mein - Javed Ali, Akshaye Khanna, Urvashi Sharma.m4a" type="audio/mpeg">
+                        not supported!
+                    </audio>
+                    <input 
+                        type="range"
+                        value="0"  
+                        id="progressBar"
+                    />
+                </div>
+
+            </div>
+
+            <div 
+                id="controls"
+                class="p-5 text-3xl flex gap-16 xs:gap-10 justify-center items-center"
+            >
+
+                <button 
+                    id="backwardBtn"
+                    onclick="skipBackward()"
+                    class="flex justify-center items-center text-[#FF1493] bg-white p-4 rounded-[50%] cursor-pointer"
+                >
+                    <i class="fa-solid fa-backward"></i>
+                </button>
+
+                <button 
+                    id="PlayPauseBtn"
+                    onclick="playPause()"
+                    class="flex justify-center items-center text-white bg-[#FF1493] py-6 px-7 rounded-[50%] cursor-pointer"
+                >
+                    <i class="fa-solid fa-play"></i>
+                </button>
+
+                <button
+                    id="forwardBtn"
+                    onclick="skipForward()"
+                    class="flex justify-center items-center text-[#FF1493]  bg-white p-4 rounded-[50%] cursor-pointer"
+                >
+                    <i class="fa-solid fa-forward"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

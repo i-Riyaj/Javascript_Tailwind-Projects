@@ -1,0 +1,18 @@
+#progressBar {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 0.625rem;
+    background: #FF1493;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+}
+
+#progressBar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: #FF1493;
+    border: 8px solid white;
+    box-shadow: 0 2px 5px rgb(128, 128, 128), 0 -2px 5px rgb(128, 128, 128);
+}
