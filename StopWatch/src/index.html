@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0645405b1.js" crossorigin="anonymous"></script>
+</head>
+<body class="min-h-dvh w-dvw bg-black flex justify-center items-center">
+    <div id="mainContainer" class="p-3 text-white w-[90%] flex gap-20 flex-col justify-center items-center">
+        <div 
+            class="p-5 text-6xl xs:text-4xl"
+        >
+            <h1 id="displayTime">00 : 00 : 00</h1>
+        </div>
+        <div 
+            id="stopWatchControls"
+            class="p-5 xs:p-2 w-full flex justify-evenly items-center"
+        >
+            <button
+                type="button"
+                id="stopBtn"
+                onclick="stopTimer()"
+                class="size-20 xs:size-16 cursor-pointer"
+            >
+                <img src="../assets/images/stop.png" alt="stopImg"/>
+            </button>
+            <button
+                type="button"
+                id="startBtn"
+                onclick="startWatch()"
+                class="size-[130px] xs:size-[90px] cursor-pointer"
+            >
+                <img src="../assets/images/start.png" alt="startImg">
+            </button>
+            <button
+                type="button"
+                onclick="resetTimer()"
+                id="resetBtn"
+                class="size-20 xs:size-16 cursor-pointer"
+            >
+                <img src="../assets/images/reset.png" alt="resetImg">
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
