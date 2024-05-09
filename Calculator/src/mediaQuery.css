@@ -1,0 +1,29 @@
+/* large mboile screen  */
+@media (min-width: 40em){
+    #calculator{
+        aspect-ratio: 3/4;
+        min-width: 70vw;
+    }
+}
+
+/* tablet screen  */
+@media (min-width: 48em){
+    #calculator{
+        aspect-ratio: 3/4;
+    }
+}
+
+/* laptop screen  */
+@media (min-width: 64em){
+    #calculator{
+        aspect-ratio: 4/3;
+        min-width: 70vw;
+    }
+}
+
+/* desktop screen */
+@media (min-width: 80em){
+    #calculator {
+        aspect-ratio: 16/9;
+    }
+}

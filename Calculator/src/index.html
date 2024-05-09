@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+</head>
+<body>
+    <!-- calculator division -->
+    <div id="calculator">
+
+        <!-- result display area  -->
+        <div id="display">
+             <input type="text" value="" id="result" readonly/>
+        </div>
+
+        <div id="switchTheme">
+             <input type="checkbox" name="toggleTheme" id="toggleTheme">
+             <label for="toggleTheme" id="toggleThemeLabel"></label>
+        </div>
+
+        <!-- control btns section  -->
+        <div id="controlBtns">
+            <input type="button" value="AC" class="fontsp" onclick="allCLear()">
+            <input type="button" value="DE" class="fontsp" onclick="backspace()">
+            <input type="button" value="%" class="fontsp" onclick="result.value += this.value">
+            <input type="button" value="/" class="fontsp" onclick="result.value += this.value">
+
+            <input type="button" value="9" onclick="result.value += this.value">
+            <input type="button" value="8" onclick="result.value += this.value">
+            <input type="button" value="7" onclick="result.value += this.value">
+            <input type="button" value="*" class="fontsp" onclick="result.value += this.value">
+
+            <input type="button" value="6" onclick="result.value += this.value">
+            <input type="button" value="5" onclick="result.value += this.value">
+            <input type="button" value="4" onclick="result.value += this.value">
+            <input type="button" value="+" class="fontsp" onclick="result.value += this.value">
+
+            <input type="button" value="3" onclick="result.value += this.value">
+            <input type="button" value="2" onclick="result.value += this.value">
+            <input type="button" value="1" onclick="result.value += this.value">
+            <input type="button" value="-" class="fontsp" onclick="result.value += this.value">
+
+            <input type="button" value="0" onclick="result.value += this.value">
+            <input type="button" value="." onclick="result.value += this.value">
+            <input type="button" value="=" onclick="calculate()">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
