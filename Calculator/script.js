@@ -14,6 +14,12 @@ const backspace = () => {
 // calculate while pressing on "=" button
 const calculate = () => {
     try{
+        // defining % function
+        if(result.value.includes('%')){
+            result.value =parseFloat(result.value.toString().slice(0, -1)/100);
+            return;
+        }
+        // +, -, /, * 
         result.value = eval(result.value);
     }
     catch(e){
